@@ -92,7 +92,7 @@ export class Enum {
      * Default `toString()` method for enum constant.
      */
     toString() {
-        return `${this.constructor.name}.${this.name}`;
+        return `${this.name}`;
     }
 }
 export function copyProperties(target, source) {
