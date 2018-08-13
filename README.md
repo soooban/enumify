@@ -1,3 +1,5 @@
+>this forking changed Enum's toString() function to just return case's name (without class name)
+
 # Enumify
 
 A JavaScript library for enums. To be used by transpiled ES6 (e.g. via Babel).
