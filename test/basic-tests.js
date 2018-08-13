@@ -15,7 +15,7 @@ test('instanceof', () => {
 });
 
 test('toString', () => {
-    assert.strictEqual(String(Color.RED), 'Color.RED');
+    assert.strictEqual(String(Color.RED), 'RED');
 });
 
 test('ordinal', () => {
@@ -55,7 +55,7 @@ test('Custom instance method', () => {
     assert.strictEqual(TicTacToeColor.O.inverse, TicTacToeColor.X);
 });
 test('toString', () => {
-    assert.strictEqual(String(TicTacToeColor.O), 'TicTacToeColor.O');
+    assert.strictEqual(String(TicTacToeColor.O), 'O');
 });
 test('ordinal', () => {
     assert.strictEqual(TicTacToeColor.O.ordinal, 0);
