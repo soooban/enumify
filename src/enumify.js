@@ -94,7 +94,15 @@ export class Enum {
     toString() {
         return `${this.name}`;
     }
+
+    /**
+     * get concrete type of enum constant.
+     */
+    type() {
+        return `${this.constructor.name}.${this.name}`;
+    }
 }
+
 export function copyProperties(target, source) {
     // Ideally, we’d use Reflect.ownKeys() here,
     // but I don’t want to depend on a polyfill
